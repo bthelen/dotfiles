@@ -1,0 +1,26 @@
+# https://en.wikipedia.org/wiki/Letterlike_Symbols is awesome
+# symbol = "✦"
+# symbol = "⬢"
+
+add_newline = false
+
+#[character]
+#symbol = "$"
+#use_symbol_for_status = true
+#error_symbol = "✗$"
+
+[cmd_duration]
+min_time = 5000
+
+[hostname]
+ssh_only = false
+
+[kubernetes]
+disabled = false
+style = "#FD6A02 bold"
+
+[username]
+show_always = true
+
+[gcloud]
+disabled = true
