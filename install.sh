@@ -10,3 +10,6 @@ mkdir -p ~/.config/yamllint/
 cp yamllint-config  ~/.config/yamllint/config
 
 cp gitconfig ~/.gitconfig
+
+cp gitignore_global ~/.gitignore_global
+git config --global core.excludesfile $HOME/.gitignore_global
