@@ -1,6 +1,7 @@
 [core]
         editor = /usr/bin/vim
         autocrlf = input
+	excludesfile = ~/.gitignore_global
 [transfer]
         fsckobjects = true
 [alias]
