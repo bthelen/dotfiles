@@ -13,14 +13,21 @@ add_newline = false
 min_time = 5000
 
 [hostname]
-ssh_only = false
+ssh_only = true
 
 [kubernetes]
 disabled = false
 style = "#FD6A02 bold"
 
 [username]
-show_always = true
+show_always = false
 
 [gcloud]
+format = 'on [$symbol$account(@$domain) ([\($project\)](bold yellow))]($style) '
+disabled = false
+
+[aws]
+disabled = true
+
+[terraform]
 disabled = true
