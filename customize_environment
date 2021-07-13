@@ -7,7 +7,7 @@ apt-get -y install yamllint
 
 # kubernetes comptions
 mkdir -p ~/.local/share/bash-completion
-kubectl completion bash > ~/.local/share/bash-completion/kubectl
+kubectl completion bash > ~/.local/share/bash-completion/completions/kubectl
 
 # get bat
 BAT_VERSION=0.18.1
