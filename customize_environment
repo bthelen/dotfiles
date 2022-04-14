@@ -4,6 +4,7 @@ apt-get -y install direnv
 apt-get -y install kubectx
 apt-get -y install fzf
 apt-get -y install yamllint
+apt-get -y install netcat
 
 # get bat
 BAT_VERSION=0.18.3
