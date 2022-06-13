@@ -31,3 +31,6 @@ disabled = true
 
 [terraform]
 disabled = true
+
+[container]
+disabled = true
