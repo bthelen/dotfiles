@@ -1,0 +1,12 @@
+import = [
+    "~/.config/alacritty/themes/themes/tomorrow_night.toml"
+]
+
+[window]
+  # title: Term-Alacritty
+  dynamic_title = true
+  decorations = "Full"
+
+[font]
+  normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+  size = 16
