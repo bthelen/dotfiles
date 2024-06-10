@@ -2,6 +2,15 @@
 
 set -e
 
+# get my preferred font
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+	# ...
+	echo "will install this font later"
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+	# Mac OSX
+	brew install font-jetbrains-mono-nerd-font
+fi
+
 if [ ! -d ~/.vim/bundle/Vundle.vim ]; then
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 fi
