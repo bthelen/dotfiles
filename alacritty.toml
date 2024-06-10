@@ -6,6 +6,8 @@ import = [
 # title: Term-Alacritty
 dynamic_title = true
 decorations = "Full"
+padding = { x = 3, y = 3 }
+dynamic_padding = true
 
 [font]
 normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
