@@ -29,6 +29,9 @@ if [ ! -d ~/.config/alacritty/themes ]; then
 	git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
 fi
 
+mkdir -p ~/.config/ghostty/
+cp config.ghostty ~/.config/ghostty/config.ghostty
+
 cp gitconfig ~/.gitconfig
 
 cp gitignore_global ~/.gitignore_global

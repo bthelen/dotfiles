@@ -1,0 +1,10 @@
+# env_TERM = xterm-256color
+# general_import = [
+# window_dynamic_padding = true
+# window_dynamic_title = true
+font-family = JetBrainsMono Nerd Font
+font-size = 16
+window-decoration = true
+window-padding-x = 10
+theme = GitHub Dark Default
+
