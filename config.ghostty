@@ -4,3 +4,5 @@ quit-after-last-window-closed = true
 theme = GitHub Dark Default
 window-decoration = true
 window-padding-x = 10
+clipboard-paste-protection = false
+
