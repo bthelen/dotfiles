@@ -17,6 +17,12 @@ fi
 cp vimrc ~/.vimrc
 vim +PluginInstall +qall
 
+if [ ! -d ~/.tmux ]; then
+	git clone --single-branch https://github.com/gpakosz/.tmux.git ~/.tmux
+	ln -s -f ~/.tmux/.tmux.conf ~/.tmux.conf
+fi
+cp tmux.conf.local ~/.tmux.conf.local
+
 cp starship.toml ~/.config/starship.toml
 
 mkdir -p ~/.config/yamllint/
