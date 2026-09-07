@@ -34,3 +34,13 @@ cp config.ghostty ~/.config/ghostty/config.ghostty
 cp gitconfig ~/.gitconfig
 
 cp gitignore_global ~/.gitignore_global
+
+if [ -d ~/.config/nvim ]; then
+  mv ~/.config/nvim ~/.config/nvim.backup.$(date +%Y%m%d%H%M%S)
+fi
+cp -r nvim ~/.config/nvim
+
+# keep only the 5 most recent nvim config backups
+ls -1dt ~/.config/nvim.backup.* 2>/dev/null | tail -n +6 | while read -r old_backup; do
+  rm -rf "$old_backup"
+done
