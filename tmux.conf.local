@@ -465,6 +465,9 @@ tmux_conf_uninstall_plugins_on_reload=false
 #set -g @plugin 'tmux-plugins/tmux-resurrect'
 #set -g @plugin 'tmux-plugins/tmux-continuum'
 #set -g @continuum-restore 'on'
+set -g @plugin 'infamous55/tmux-github-theme'
+# Options: dark (default), dark_dimmed, dark_high_contrast, dark_colorblind, dark_tritanopia
+set -g @color_variation "dark"
 
 
 # -- custom variables ----------------------------------------------------------
