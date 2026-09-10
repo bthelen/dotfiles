@@ -5,4 +5,5 @@ theme = GitHub Dark Default
 window-decoration = true
 window-padding-x = 10
 clipboard-paste-protection = false
-
+adjust-cursor-thickness = 6
+cursor-style = block
